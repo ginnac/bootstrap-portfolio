@@ -1,0 +1,65 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+header{
+    width:100%;
+    background-color: #ffffff;
+    border-bottom:solid #cccccc;
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+}
+ 
+
+.nametag{
+    background-color: #4aaaa5;
+    
+
+
+}
+
+.nametag1{
+    color:  #ffffff;
+}
+
+.bodycontent{
+    background-color: #ffffff;
+    border:solid thin #dddddd;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width:960px;
+}
+
+p{
+    color: #777777;
+}
+
+footer{
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top: 8px solid #4aaaa5;
+    width:100%;
+}
+.bar{
+    padding-top: 0;
+    padding-bottom: 0;  
+}
+
+.namebox{
+    background-color: #4aaaa5;
+}
+
+#portfolio{
+    padding-right:10px;
+    padding-left: 10px;
+    border-right: solid 1px #dddddd;
+    border-left: solid 1px #dddddd;
+}
+
+.link-box{
+    padding-right:10px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-height:850px) {
+    .size1 {
+        height:50%;
+    }
