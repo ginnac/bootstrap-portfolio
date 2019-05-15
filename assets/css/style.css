@@ -7,7 +7,6 @@ nav{
     background-color: #ffffff;
     border-bottom:solid #cccccc;
     font-family: 'Georgia', Times,'Times New Roman', serif;
-
 }
  
 .nametag{
@@ -64,8 +63,6 @@ p{
     margin-right:1.5%;
 }
 
-
-
 .bar{
     padding-top: 0;
     padding-bottom: 0;  
@@ -73,6 +70,10 @@ p{
 
 .namebox{
     background-color: #4aaaa5;
+}
+
+.content-box{
+    margin-bottom: 30%;
 }
 
 #portfolio{
@@ -98,6 +99,14 @@ p{
 
 .pictext{
     color: #ffffff;
+}
+
+input{
+    border-bottom-width: 3px;
+}
+
+textarea{
+    border-top-width: 3px;
 }
 
 footer{
@@ -137,3 +146,15 @@ html {
     width:1100px;
     padding-right: 0;
     padding-left: 0;
+    }
+    .pictureboxes{
+        height:300px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .pictureboxes{
+        height:300px;
+    }
+
+}
