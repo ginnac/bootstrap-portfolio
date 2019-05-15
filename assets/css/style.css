@@ -12,13 +12,19 @@ nav{
  
 .nametag{
     background-color: #4aaaa5;
-    
-
-
 }
 
 .nametag1{color: #ffffff;
 }
+
+a{
+    color:#777777;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #4aaaa5;
+  }
 
 .navbar{padding-left:0;
     padding-right:0;
@@ -58,16 +64,7 @@ p{
     margin-right:1.5%;
 }
 
-footer{
-    background-color: #666666;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    border-top: 8px solid #4aaaa5;
-    width:100%;
-}
 
-.text-footer{
-    color:#cccccc;
-}
 
 .bar{
     padding-top: 0;
@@ -101,6 +98,17 @@ footer{
 
 .pictext{
     color: #ffffff;
+}
+
+footer{
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top: 8px solid #4aaaa5;
+    width:100%;
+}
+
+.text-footer{
+    color:#cccccc;
 }
 
 /* Sticky footer styles
