@@ -149,6 +149,9 @@ html {
     .pictureboxes{
         height:300px;
     }
+    .nametag1{
+        margin-left:18px;
+    }
 }
 
 @media only screen and (min-width: 768px){
