@@ -1,2 +1,2 @@
 # bootstrap-portfolio
-Homework#2
+- Practice bootstrap library.
